@@ -8,25 +8,25 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 20% 98%;
-    --foreground: 240 10% 15%;
+    --background: 220 50% 96%;
+    --foreground: 220 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 15%;
+    --card-foreground: 220 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 15%;
+    --popover-foreground: 220 20% 20%;
 
-    --primary: 270 91% 65%;
+    --primary: 280 100% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 10% 96%;
-    --secondary-foreground: 240 10% 15%;
+    --secondary: 45 100% 75%;
+    --secondary-foreground: 45 60% 25%;
 
-    --muted: 240 5% 94%;
-    --muted-foreground: 240 5% 45%;
+    --muted: 220 30% 92%;
+    --muted-foreground: 220 20% 50%;
 
-    --accent: 320 85% 65%;
+    --accent: 150 80% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -52,15 +52,18 @@ All colors MUST be HSL.
     --neutral-light: 240 5% 96%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(270 91% 65%) 0%, hsl(320 85% 65%) 50%, hsl(45 93% 63%) 100%);
-    --gradient-emotion: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(45 93% 63%) 50%, hsl(0 84% 60%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(240 20% 99%) 100%);
-    --gradient-button: linear-gradient(135deg, hsl(270 91% 65%) 0%, hsl(320 85% 65%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(280 100% 70%) 0%, hsl(320 100% 75%) 30%, hsl(45 100% 75%) 70%, hsl(150 80% 60%) 100%);
+    --gradient-emotion: linear-gradient(135deg, hsl(150 80% 60%) 0%, hsl(45 100% 75%) 50%, hsl(340 90% 65%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(220 50% 98%) 100%);
+    --gradient-button: linear-gradient(135deg, hsl(280 100% 70%) 0%, hsl(320 100% 75%) 100%);
+    --gradient-maya: linear-gradient(135deg, hsl(150 80% 60%) 0%, hsl(180 70% 55%) 100%);
+    --gradient-alex: linear-gradient(135deg, hsl(45 100% 75%) 0%, hsl(30 90% 70%) 100%);
 
     /* Shadows */
-    --shadow-glow: 0 8px 32px hsl(270 91% 65% / 0.3);
-    --shadow-card: 0 4px 20px hsl(240 10% 15% / 0.08);
-    --shadow-button: 0 4px 16px hsl(270 91% 65% / 0.4);
+    --shadow-glow: 0 8px 32px hsl(280 100% 70% / 0.4);
+    --shadow-card: 0 4px 20px hsl(220 20% 20% / 0.08);
+    --shadow-button: 0 4px 16px hsl(280 100% 70% / 0.5);
+    --shadow-fun: 0 8px 25px hsl(320 100% 75% / 0.3);
 
     --sidebar-background: 0 0% 98%;
 
@@ -80,25 +83,25 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 240 15% 8%;
-    --foreground: 240 10% 95%;
+    --background: 220 30% 12%;
+    --foreground: 220 15% 90%;
 
-    --card: 240 10% 12%;
-    --card-foreground: 240 10% 95%;
+    --card: 220 25% 15%;
+    --card-foreground: 220 15% 90%;
 
-    --popover: 240 10% 12%;
-    --popover-foreground: 240 10% 95%;
+    --popover: 220 25% 15%;
+    --popover-foreground: 220 15% 90%;
 
-    --primary: 270 91% 65%;
+    --primary: 280 100% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 10% 18%;
-    --secondary-foreground: 240 10% 95%;
+    --secondary: 45 100% 65%;
+    --secondary-foreground: 45 60% 20%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 15% 65%;
 
-    --accent: 320 85% 65%;
+    --accent: 150 80% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -119,10 +122,13 @@ All colors MUST be HSL.
     --neutral-light: 240 5% 18%;
 
     /* Dark gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(270 91% 65%) 0%, hsl(320 85% 65%) 50%, hsl(45 93% 63%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(240 10% 12%) 0%, hsl(240 15% 15%) 100%);
-    --shadow-glow: 0 8px 32px hsl(270 91% 65% / 0.5);
-    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --gradient-hero: linear-gradient(135deg, hsl(280 100% 70%) 0%, hsl(320 100% 75%) 30%, hsl(45 100% 75%) 70%, hsl(150 80% 60%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(220 25% 15%) 0%, hsl(220 30% 18%) 100%);
+    --gradient-maya: linear-gradient(135deg, hsl(150 80% 60%) 0%, hsl(180 70% 55%) 100%);
+    --gradient-alex: linear-gradient(135deg, hsl(45 100% 75%) 0%, hsl(30 90% 70%) 100%);
+    --shadow-glow: 0 8px 32px hsl(280 100% 70% / 0.6);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.4);
+    --shadow-fun: 0 8px 25px hsl(320 100% 75% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -157,6 +163,18 @@ All colors MUST be HSL.
 
   .gradient-button {
     background: var(--gradient-button);
+  }
+
+  .gradient-maya {
+    background: var(--gradient-maya);
+  }
+
+  .gradient-alex {
+    background: var(--gradient-alex);
+  }
+
+  .shadow-fun {
+    box-shadow: var(--shadow-fun);
   }
 
   .shadow-glow {

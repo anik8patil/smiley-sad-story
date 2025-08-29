@@ -12,9 +12,9 @@ export function ChatBubble({ character, children, className, avatar }: ChatBubbl
   const isUser = character === 'user';
   
   const bubbleStyles = {
-    maya: 'bg-gradient-button text-white',
-    alex: 'bg-accent text-accent-foreground',
-    user: 'bg-primary text-primary-foreground ml-auto',
+    maya: 'gradient-maya text-white shadow-fun',
+    alex: 'gradient-alex text-white shadow-fun',
+    user: 'bg-primary text-primary-foreground ml-auto shadow-fun',
   };
 
   return (
